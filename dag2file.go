@@ -56,6 +56,7 @@ func getFileByDir(obj *Object, pathArr []string, cur int, store KVStore) []byte 
 	return nil
 }
 
+
 func getFileByList(obj *Object, store KVStore) []byte {
 	ans := make([]byte, 0)
 	index := 0

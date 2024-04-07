@@ -179,3 +179,4 @@ func StoreDir(store KVStore, dir Dir, h hash.Hash) *Object {
 	store.Put(hash, jsonMarshal)
 	return treeObject
 }
+
